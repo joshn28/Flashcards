@@ -16,4 +16,14 @@
     border: solid 2px black;
     background-color: #00FF80;
     height: 32%;
+    border-radius: 2px;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+    background-size: cover;
 }
