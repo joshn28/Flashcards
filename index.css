@@ -1,0 +1,12 @@
+.flashcards {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    justify-content: space-around;
+    align-items: center;
+}
+
