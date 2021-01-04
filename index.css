@@ -14,9 +14,34 @@
     height: 170px;
     text-align: center;
     border: solid 2px black;
-    background-color: #00FF80;
+    position: relative;
     border-radius: 5px;
     font-family: Arial, "Times New Roman", sans-serif;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.front, .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.front {
+    z-index: 2;
+    backface-visibility: hidden;
+    background-color: #00FF80;
+
+}
+
+.back {
+    transform: rotateY(180deg);
+    z-index: 1;
+    background-color: #0a79f7;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
 }
 
 h1 {
